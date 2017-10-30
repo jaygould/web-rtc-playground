@@ -1,5 +1,5 @@
 exports.index = (req, res) => {
 	res.render('index', {
-		title: 'WebRTC'
+		title: 'WebRTC Playground'
 	});
 };

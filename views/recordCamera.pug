@@ -9,10 +9,9 @@ block content
 
   
   .enterWrap
-    p Testing server for WebRTC
-    video#localVideo(autoplay muted playsInline)
-    video#recordedVideo(autoplay muted playsInline)
+    video#localVideo.vid(autoplay muted playsInline)
+    video#recordedVideo.vid(autoplay muted playsInline)
 
     .buttons
-      a#startBtn Start recording
-      a#stopBtn Stop recording
+      a#startBtn.btn Start recording
+      a#stopBtn.btn Stop recording

@@ -4,4 +4,40 @@ body {
 }
 
 body {
+	font-family: 'verdana';
+}
+
+a,
+a:visited {
+	color: #025e00;
+}
+
+.buttons {
+	padding: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+a.btn {
+	display: inline-block;
+	background: #9c9c9c;
+	border-radius: 2px;
+	border-bottom: 3px solid #777676;
+	padding: 8px 12px;
+	text-decoration: none;
+	color: #fff;
+	margin: 0px 10px;
+	margin-top: 0px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+a.btn:hover {
+	border-bottom: 0px solid #777676;
+	margin-top: 3px;
+}
+
+.vid {
+	margin: 0px 5px;
 }
