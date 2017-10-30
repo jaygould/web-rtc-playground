@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  script.
+    window.onload = (e) => { 
+      showCamera();
+    }
+
+  
+  .enterWrap
+    p Testing server for WebRTC
+    video#localVideo(autoplay muted playsInline)

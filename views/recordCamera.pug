@@ -1,0 +1,18 @@
+extends layout
+
+block content
+  script.
+    window.onload = (e) => { 
+      recordCamera();    
+    }
+
+
+  
+  .enterWrap
+    p Testing server for WebRTC
+    video#localVideo(autoplay muted playsInline)
+    video#recordedVideo(autoplay muted playsInline)
+
+    .buttons
+      a#startBtn Start recording
+      a#stopBtn Stop recording
